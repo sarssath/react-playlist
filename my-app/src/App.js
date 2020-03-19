@@ -18,7 +18,17 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
-            <Header/>
+                <h1>My Playlist</h1>
+                <div id="form">
+                    <p>Add a new song:</p>
+                    <input placeholder="Song Name" id="song"/>
+                    <input placeholder="Artist Name" id="artist"/>
+                    <input placeholder="Song Length" id="length"/>
+                    <input placeholder="Image URL" id="image"/>
+                    <input placeholder="Song Link Address" id="link"/>
+                    <input placeholder="Release Year" id="year"/>
+                    <button id="add">Add</button>
+                </div>
             </div>
         );
     }
