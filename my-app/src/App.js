@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
-import Header from './Components/Header';
+import Title from './Components/Title';
 import './App.css';
+
 
 class App extends React.Component {
     constructor(props) {
@@ -18,7 +19,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
-                <h1>My Playlist</h1>
+            <Title header="My Playlist"/>
                 <div id="form">
                     <p>Add a new song:</p>
                     <input placeholder="Song Name" id="song"/>
