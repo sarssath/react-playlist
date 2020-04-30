@@ -3,7 +3,7 @@ class Songs extends React.Component {
     render() {
         return (
             <div>
-                <img src={this.props.image}/>
+                <img className ="images" src={this.props.image}/>
                 <p>{this.props.name}</p>
                 <p>{this.props.artist}</p>
                 <p>{this.props.length}</p>
